@@ -1,6 +1,6 @@
-# ⚛️ The Living Periodic Table
+# ⚛️ The Living Periodic Table (pe4riodic-table)
 
-An immersive, artistic, and interactive web experience that blends chemistry, physics, and motion design. Each element breathes, responds to interactions, and can be combined to form glowing, orbiting molecules.
+> **trippy tabel** - An immersive, artistic, and interactive web experience that blends chemistry, physics, and motion design. Each element breathes, responds to interactions, and can be combined to form glowing, orbiting molecules.
 
 ![The Living Periodic Table](preview.png)
 
@@ -12,8 +12,10 @@ An immersive, artistic, and interactive web experience that blends chemistry, ph
 - Smooth scale transformations that mimic breathing
 
 ### 🎯 Interactive Hover Effects
-- Elements glow and expand on hover
-- Nearby tiles pulse in response
+- **Intense neon glow** - Triple-layered box shadows with category-specific colors
+- **Color-shifting backgrounds** - Radial gradient cycles (Cyan → Magenta → Green)
+- Elements expand to 1.3x size with random rotation
+- Nearby tiles pulse in response with elastic bouncing
 - Subtle audio feedback for interactions
 - Visual effects that respond to cursor proximity
 
@@ -93,10 +95,11 @@ elementslit/
 ## 🎨 Visual Design
 
 - **Dark cosmic theme** with gradients
-- **Neon glow effects** (cyan, green, orange)
+- **Neon glow effects** (cyan, green, orange, magenta, yellow)
 - **Category-based color coding** for element types
 - **Smooth transitions** and organic animations
 - **Responsive grid layout** for the periodic table
+- **1.5x brightness + 1.8x saturation** on hover for ultra-vivid colors
 
 ## 🔧 Customization
 
@@ -190,4 +193,3 @@ Built with passion for chemistry, physics, and beautiful code.
 ---
 
 **Enjoy experimenting with The Living Periodic Table!** ⚛️✨
-
