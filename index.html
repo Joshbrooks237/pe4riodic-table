@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Living Periodic Table ⚛️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>⚛️ The Living Periodic Table</h1>
+            <p class="subtitle">Drag elements together to create molecules that orbit and glow</p>
+        </header>
+
+        <div class="controls">
+            <button id="resetBtn" class="btn">Reset Table</button>
+            <button id="clearMolecules" class="btn">Clear Molecules</button>
+            <div class="info">
+                <span id="moleculeCount">Molecules: 0</span>
+            </div>
+        </div>
+
+        <div class="workspace">
+            <svg id="connections" class="connections-layer"></svg>
+            <div id="periodicTable" class="periodic-table"></div>
+            <div id="moleculeArea" class="molecule-area"></div>
+            <canvas id="particleCanvas" class="particle-canvas"></canvas>
+        </div>
+
+        <div class="bond-display" id="bondDisplay"></div>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    
+    <!-- App Scripts -->
+    <script src="elements-data.js"></script>
+    <script src="particle-system.js"></script>
+    <script src="audio-system.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
